@@ -124,7 +124,7 @@ After selecting a current subsction, choose __Update/Delete Subscription__ from 
 ##### Delete Subscription
 After selecting a current subscription, choose __Update/Delete Subscription__ from the subscription menu.
 * In order to delete a subscription plan from your SubscriptionTracker app acount, select __Delete Subscription__ from the next menu.
-  * :warning: _Warning: Deleting a subscription is irreversible._ :warning:
+  * _Warning: Deleting a subscription is irreversible._
 
 [[Top]](#table-of-contents)
 
@@ -178,7 +178,7 @@ Here you can change how many days prior to a subscription expiration that its re
 ##### Disable Reminder
 Selecting this option will allow you to disable the current reminder for a subscription from appearing in the SubsscriptionTracker welcome screen.
 
-* :warning: _Warning: Deleting a subscription is irreversible._ :warning: 
+* _Warning: Deleting a subscription is irreversible._
   * If you would like to re-enable a reminder, you must [create a new one](#access-reminders).
 * __SubscriptionTracker cannot remove events from your Calendar app.__ Please remember to delete the old reminder from your Calendar app.
 
@@ -240,11 +240,11 @@ The main features and menus of the SubscriptionTracker Interface are modularized
 ### MVP
 #### User
 User will be able to:
-* :white_check_mark: Create a new subscription for themselves 
-* :white_check_mark: View their current subscriptions
-* :white_check_mark: Modify their current subscription (cost/duration)
-* :white_check_mark: Delete their subscription(s)
-* :white_check_mark: View subscription spending:
+* Create a new subscription for themselves 
+* View their current subscriptions
+* Modify their current subscription (cost/duration)
+* Delete their subscription(s)
+* View subscription spending:
   * By day
   * By month
   * By year
@@ -255,33 +255,33 @@ User will be able to:
 
 #### Subscription
 Subscriptions will be able to:
-* :white_check_mark: Initialize a renewal date based on date created and plan duration
-* :white_check_mark: Update renewal dates when plan details change
-* :white_check_mark: Display subscription information
-* :white_check_mark: Calculate days remaining in the current plan
-* :white_check_mark: Determine if there is a current active reminder
-* :white_check_mark: Find ts active reminder
-* :white_check_mark: Create a new reminder (which disables the previous one if it was active)
-* :white_check_mark: Calculate a normalized cost (dollar per day)
+* Initialize a renewal date based on date created and plan duration
+* Update renewal dates when plan details change
+* Display subscription information
+* Calculate days remaining in the current plan
+* Determine if there is a current active reminder
+* Find ts active reminder
+* Create a new reminder (which disables the previous one if it was active)
+* Calculate a normalized cost (dollar per day)
 
 [[Top]](#table-of-contents)
 
 #### Service
 Services will be able to: 
-* :white_check_mark: Associate with new or multiple categories
+* Associate with new or multiple categories
 
 [[Top]](#table-of-contents)
 
 #### Reminder
 Reminders will be able to:
-* :white_check_mark: Initialize with a default notice time of 7 days
-* :white_check_mark: Find the date on which the reminder should be issues based on `:days_notice` and its subscription's renewal date
+* Initialize with a default notice time of 7 days
+* Find the date on which the reminder should be issues based on `:days_notice` and its subscription's renewal date
 
 [[Top]](#table-of-contents)
 
 #### Seeds
-* :white_check_mark: Develop comprehensive seed data for app creation to test various aggregate methods and associations.
-* :white_check_mark: Multiple scenarios accounted for such as:
+* Develop comprehensive seed data for app creation to test various aggregate methods and associations.
+* Multiple scenarios accounted for such as:
   * Users with no subscriptions
   * Users with multiple subscriptions to the same service
   * Free trials vs. paid subscriptions
@@ -290,17 +290,15 @@ Reminders will be able to:
 [[Top]](#table-of-contents)
 
 #### CLI
-* :white_check_mark: Develop basic command line interface for user to manage & control app
+* Develop basic command line interface for user to manage & control app
 
 [[Top]](#table-of-contents)
 
 ### Stetch Goals
 #### README in Markdown 
-Status: :white_check_mark:
-You are reading it :smiley:
+You are reading it! 
 
 #### User Login System
-Status: :white_check_mark:
 * Develop system to track app users by username and password to persist subscription information between sessions (See [Logging In](#logging-in))
 * Validation system developed to ensure no duplicate usernames are created by multiple users
 * Validation system developed to ensure masked passwords match prior to account creation
@@ -309,14 +307,12 @@ Status: :white_check_mark:
 [[Top]](#table-of-contents)
 
 #### Modularize Main App
-Status: :white_check_mark:
 * SubscriptionTracker.rb refactored to that main menu options and features exist in their own modules.
 * Modules are associated using heirarchy from children up through parents in order to module inclusion to be complete. (See [Interface Modules](#interface-modules))
 
 [[Top]](#table-of-contents)
 
 #### Reminders link to User's Calendar App 
-Status: :white_check_mark:
 
 * Upon Reminder creation, user is prompted to create a Calendar Event for their machines local calendar app such as iCalendar, Outlook, or Google Calendar.
 * The Ruby Gem `icalendar` is used to turn a hash of subscription/reminder information into an event instance.
@@ -330,12 +326,12 @@ Status: :white_check_mark:
 [[Top]](#table-of-contents)
 
 #### Enhanced UI
-* :white_check_mark: Use `colorize` to color and format CLI output
-* :white_check_mark: Use `TTY-Table` to create display tables for spending data
-* :white_check_mark: Use ASCII art to create welcome logo
-* :white_check_mark: Animate the welcome menu
-* :white_check_mark: Custom screen clear method created to permanently display logo
-* :white_check_mark: Sound effects linked to app launch, app exit, warnings, successful changes, and data deletion
+* Use `colorize` to color and format CLI output
+* Use `TTY-Table` to create display tables for spending data
+* Use ASCII art to create welcome logo
+* Animate the welcome menu
+* Custom screen clear method created to permanently display logo
+* Sound effects linked to app launch, app exit, warnings, successful changes, and data deletion
 
 [[Top]](#table-of-contents)
 
