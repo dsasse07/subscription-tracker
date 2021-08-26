@@ -67,7 +67,7 @@ This app is designed to keep tracker of your free and paid subscriptions such as
 
 ### Logging In
 #### New Users
-If you have not previously made an account with SubscriptionTracker, select <strong>New User</strong> from the main menu.
+If you have not previously made an account with SubscriptionTracker, select __New User__ from the main menu.
 * The app will ask you for your first and last name, as well as a username and password in order to create an account.
 * If the username you have selected is already in use, you will be prompted to pick a new username
 * If you would like for SubscriptionTracker to help you monitor your monthly budget for subscription services, you can enter your monthly budget in when prompted.
@@ -168,7 +168,7 @@ Selecting this menu option will provide an analysis of your current spending bas
 #### Reminders
 ##### Change Days Notice
 Here you can change how many days prior to a subscription expiration that its reminder appears in the SubscriptionTracker app welcome screen.
-* Enter the number of <strong>days</strong> notice you would like.date for your subscription is scheduled.
+* Enter the number of __days__ notice you would like.date for your subscription is scheduled.
   * For example, if your subscription is set to renew on Jan 20, a 7 day advance notice means that a reminder will be set for Jan 13.
   * After adjusting the reminder you will be given the option to create a new calendar event, similar to when the reminder was first created.
     * While SubscriptionTracker can create new Calendar events, it cannot remove events from your Calendar app. Please remember to delete the old reminder from your Calendar app.
@@ -198,7 +198,7 @@ Selecting this option will allow you to __permanently__ delete your user account
 
 ## App Design
 ### Domain Model (ERD)
-![App ERD](app/lib/images/SubscriptionTracker_ERD.png)
+![App ERD](./app/lib/images/SubscriptionTracker_ERD.png)
 
 [[Top]](#table-of-contents)
 ### Model Associations
