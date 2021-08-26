@@ -1,5 +1,5 @@
 # Subscription Tracker
-![Subscription Tracker Logo](https://i.imgur.com/XgdJDPr.png)
+![Subscription Tracker Logo](https://raw.githubusercontent.com/simonjacobs212/subscription-tracker/main/app/lib/images/due_date_on_calendar.jpeg)
 
 [Demo Video](https://youtu.be/PtoSdk4yNIY)
 
@@ -198,7 +198,7 @@ Selecting this option will allow you to __permanently__ delete your user account
 
 ## App Design
 ### Domain Model (ERD)
-![App ERD](./app/lib/images/SubscriptionTracker_ERD.png)
+![App ERD](https://raw.githubusercontent.com/simonjacobs212/subscription-tracker/main/app/lib/images/SubscriptionTracker_ERD.png)
 
 [[Top]](#table-of-contents)
 ### Model Associations
@@ -229,7 +229,7 @@ Selecting this option will allow you to __permanently__ delete your user account
 
 ### Interface Modules
 The main features and menus of the SubscriptionTracker Interface are modularized to facilitate navigation, maintenance, and expansion. In order for the module associations to function, the modules are required using the heirarchy shown below:
-![App Heirarchy](app/lib/images/ModuleHeirarchy.png)
+![App Heirarchy](https://raw.githubusercontent.com/simonjacobs212/subscription-tracker/main/app/lib/images/ModuleHeirarchy.png)
 
 
 [[Top]](#table-of-contents)
